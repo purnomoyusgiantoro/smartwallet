@@ -279,7 +279,7 @@ export default function DashboardPage() {
           <div className="empty-state card" style={{ padding: "32px 16px" }}>
             <span className="icon">📋</span>
             <h3>No transactions yet</h3>
-            <p>Your transaction history will appear here</p>
+            <p>Your transaction history will Appear here</p>
           </div>
         </div>
       </div>
