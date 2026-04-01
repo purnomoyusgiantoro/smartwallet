@@ -70,19 +70,19 @@ export default function LandingPage() {
         <div className="fade-in" style={{ width: "100%", maxWidth: 340, animationDelay: "0.6s" }}>
           {hasWallet ? (
             <>
-              <Link href="/dashboard" className="btn btn-primary" style={{ marginBottom: 10, textDecoration: "none" }}>
+              <Link href="/wallet?view=dashboard" className="btn btn-primary" style={{ marginBottom: 10, textDecoration: "none" }}>
                 Open Wallet
               </Link>
-              <Link href="/create" className="btn btn-secondary" style={{ textDecoration: "none" }}>
+              <Link href="/wallet?view=create" className="btn btn-secondary" style={{ textDecoration: "none" }}>
                 Create New Wallet
               </Link>
             </>
           ) : (
-            <Link href="/create" className="btn btn-primary" style={{ textDecoration: "none", marginBottom: 12 }}>
+            <Link href="/wallet?view=create" className="btn btn-primary" style={{ textDecoration: "none", marginBottom: 12 }}>
               Create Wallet
             </Link>
           )}
-          <Link href="/import" className="btn btn-outline" style={{ textDecoration: "none" }}>
+          <Link href="/wallet?view=import" className="btn btn-outline" style={{ textDecoration: "none" }}>
             📥 Import Wallet
           </Link>
         </div>

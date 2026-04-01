@@ -80,7 +80,7 @@ export default function WalletSettingsPage() {
       <div className="container" style={{ paddingTop: 16, paddingBottom: 40 }}>
         {/* Header */}
         <div className="page-header">
-          <Link href="/dashboard" className="back-btn">←</Link>
+          <Link href="/wallet?view=dashboard" className="back-btn">←</Link>
           <h1>Settings</h1>
         </div>
 

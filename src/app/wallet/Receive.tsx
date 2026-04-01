@@ -27,7 +27,7 @@ export default function WalletReceivePage() {
       <div className="container" style={{ paddingTop: 16, paddingBottom: 40 }}>
         {/* Header */}
         <div className="page-header">
-          <Link href="/dashboard" className="back-btn">←</Link>
+          <Link href="/wallet?view=dashboard" className="back-btn">←</Link>
           <h1>Receive ETH</h1>
         </div>
 

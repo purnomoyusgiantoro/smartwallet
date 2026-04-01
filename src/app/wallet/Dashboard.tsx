@@ -92,7 +92,7 @@ export default function DashboardPage() {
           </div>
           <div style={{ display: "flex", gap: 8 }}>
             <Link
-              href="/settings"
+              href="/wallet?view=settings"
               className="btn-icon"
               style={{
                 background: "var(--bg-primary)",
@@ -153,10 +153,10 @@ export default function DashboardPage() {
         {/* Quick Actions */}
         <div className="fade-in" style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 8, marginBottom: 24 }}>
           {[
-            { href: "/send", icon: "📤", label: "Send" },
-            { href: "/receive", icon: "📥", label: "Receive" },
-            { href: "/multisign", icon: "🔐", label: "Multi-Sign" },
-            { href: "/backup", icon: "🔑", label: "Backup" },
+            { href: "/wallet?view=send", icon: "📤", label: "Send" },
+            { href: "/wallet?view=receive", icon: "📥", label: "Receive" },
+            { href: "/wallet?view=multisign", icon: "🔐", label: "Multi-Sign" },
+            { href: "/wallet?view=backup", icon: "🔑", label: "Backup" },
           ].map((action) => (
             <Link key={action.href} href={action.href} style={{
               display: "flex", flexDirection: "column", alignItems: "center", gap: 6,

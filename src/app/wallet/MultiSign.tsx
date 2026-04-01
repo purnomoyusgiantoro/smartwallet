@@ -230,7 +230,7 @@ export default function MultiSignPage() {
       <div className="container" style={{ paddingTop: 16, paddingBottom: 40 }}>
         {/* Header */}
         <div className="page-header">
-          <Link href="/dashboard" className="back-btn">←</Link>
+          <Link href="/wallet?view=dashboard" className="back-btn">←</Link>
           <h1>Multi-Sign</h1>
         </div>
 
@@ -248,7 +248,7 @@ export default function MultiSignPage() {
             <h2 style={{ fontSize: 16, fontWeight: 700 }}>
                Pending <span className="badge badge-warning" style={{ marginLeft: 4 }}>{pendingTxs.length}</span>
             </h2>
-            <Link href="/send" className="btn btn-primary btn-sm" style={{ textDecoration: "none" }}>
+            <Link href="/wallet?view=send" className="btn btn-primary btn-sm" style={{ textDecoration: "none" }}>
                + New Tx
             </Link>
           </div>

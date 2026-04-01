@@ -55,7 +55,7 @@ export default function ImportWalletPage() {
       
       // Delay for effect
       setTimeout(() => {
-        router.push("/dashboard");
+        router.push("/wallet?view=dashboard");
       }, 1000);
     } catch {
       setError("Gagal mengimpor wallet. Pastikan Private Key benar.");

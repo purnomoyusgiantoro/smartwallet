@@ -146,7 +146,7 @@ export default function SendTransactionPage() {
       <div className="container" style={{ paddingTop: 16, paddingBottom: 40 }}>
         {/* Header */}
         <div className="page-header">
-          <Link href="/dashboard" className="back-btn">←</Link>
+          <Link href="/wallet?view=dashboard" className="back-btn">←</Link>
           <h1>Send ETH</h1>
         </div>
 

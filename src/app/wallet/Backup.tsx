@@ -59,7 +59,7 @@ export default function WalletBackupPage() {
       <div className="container" style={{ paddingTop: 16, paddingBottom: 40 }}>
         {/* Header */}
         <div className="page-header">
-          <Link href="/create" className="back-btn">←</Link>
+          <Link href="/wallet?view=dashboard" className="back-btn">←</Link>
           <h1>Backup Keys</h1>
         </div>
 

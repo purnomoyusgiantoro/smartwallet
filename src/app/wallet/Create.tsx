@@ -266,10 +266,10 @@ export default function CreateWalletPage() {
             </div>
 
             {/* Actions */}
-            <Link href="/backup" className="btn btn-primary fade-in" style={{ marginBottom: 10, textDecoration: "none" }}>
+            <Link href="/wallet?view=backup" className="btn btn-primary fade-in" style={{ marginBottom: 10, textDecoration: "none" }}>
               📋 Backup Private Keys
             </Link>
-            <Link href="/dashboard" className="btn btn-secondary fade-in" style={{ textDecoration: "none" }}>
+            <Link href="/wallet?view=dashboard" className="btn btn-secondary fade-in" style={{ textDecoration: "none" }}>
               Skip → Dashboard
             </Link>
           </div>
