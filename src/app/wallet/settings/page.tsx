@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { loadWallets, decryptPrivateKey, clearWallets, loadNetwork, saveNetwork, truncateAddress } from "@/lib/wallet";
 
-export default function SettingsPage() {
+export default function WalletSettingsPage() {
   const router = useRouter();
   const [ownerAddress, setOwnerAddress] = useState("");
   const [guardianAddress, setGuardianAddress] = useState("");

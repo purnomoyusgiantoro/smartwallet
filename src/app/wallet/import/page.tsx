@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { reconstructWalletPair, saveWallets } from "@/lib/wallet";
 
-export default function ImportPage() {
+export default function ImportWalletPage() {
   const router = useRouter();
   const [ownerPK, setOwnerPK] = useState("");
   const [guardianPK, setGuardianPK] = useState("");

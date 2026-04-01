@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { loadWallets, decryptPrivateKey } from "@/lib/wallet";
 
-export default function BackupPage() {
+export default function WalletBackupPage() {
   const [ownerAddress, setOwnerAddress] = useState("");
   const [guardianAddress, setGuardianAddress] = useState("");
   const [ownerKey, setOwnerKey] = useState("");

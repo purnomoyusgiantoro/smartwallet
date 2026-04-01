@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { loadWallets } from "@/lib/wallet";
 
-export default function ReceivePage() {
+export default function WalletReceivePage() {
   const [smartWalletAddress, setSmartWalletAddress] = useState("");
   const [copiedField, setCopiedField] = useState<string | null>(null);
 

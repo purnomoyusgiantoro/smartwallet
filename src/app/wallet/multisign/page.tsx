@@ -33,7 +33,7 @@ function savePendingTxs(txs: PendingTx[]): void {
   }
 }
 
-export default function MultisignPage() {
+export default function MultiSignPage() {
   const router = useRouter();
   const [ownerAddress, setOwnerAddress] = useState("");
   const [guardianAddress, setGuardianAddress] = useState("");

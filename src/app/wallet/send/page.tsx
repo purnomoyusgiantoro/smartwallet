@@ -7,7 +7,7 @@ import { loadWallets, decryptPrivateKey, getBalance, truncateAddress, getRpcUrl 
 import { Wallet, JsonRpcProvider, parseEther, Contract } from "ethers";
 import { SMART_WALLET_ABI } from "@/lib/contract";
 
-export default function SendPage() {
+export default function SendTransactionPage() {
   const router = useRouter();
   const [selectedWallet] = useState<"owner" | "guardian">("owner");
   const [smartWalletAddress, setSmartWalletAddress] = useState("");
